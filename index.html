@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Page characteristics and bootstrap CSS/JS lookup -->
+  <title>About Me Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <style>
+/* Navbar including vertical divider */
+    .navbar-brand {
+      background-color: #008080;
+      color:white;
+      font-weight:bold
+}
+    .divider-vertical{
+      height: 20px;
+      margin-top:14px;
+      width: 1px;
+      background-color:grey
+}
+    .navbar-right {
+      margin-right: 0px;
+}
+/* Screen background */
+    .jumbotron h1 { 
+      color: #008080;
+      font-size: 2em;
+}
+    .jumbotron h3 {
+      height: 2px;
+      margin-left:auto;
+      margin-right:auto;
+      overflow: hidden;
+      background-color:darkgray;
+}
+    .jumbotron h4 img{
+      width: 20%;
+      height:auto; 
+      float: left;
+      padding-right: 20px;
+}
+/* Card label characteristics */
+    .card {
+      background-color:white;
+      padding:30px;
+      min-width: 450px;
+      overflow: hidden;
+}
+</style>
+</head>
+
+<body>
+<!-- Navbar -->
+  <div class="row">
+    <div class="container-fluid">
+        <div class="navbar-header navbar-light bg-dark">
+          <a class="navbar-brand" href="./index.html" >Ted Belanoff</a>
+        </div>
+        <ul class="nav navbar-nav bg-light navbar-right">
+          <li><a href="./index.html">About</a></li>             
+          <li class="divider-vertical"></li>
+          <li><a href="./portfolio.html">Porfolio</a></li>
+          <li class="divider-vertical"></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+<!-- Background container-->
+    <div class="jumbotron" style="margin-bottom:0px">
+      <!-- Card container-->
+      <div class="container">
+        <div class="card bg-light mb-3" style="width:65%">
+          <h1 class="card-header">About Me</h1>
+          <h3></h3>
+          <hr class="md-up">
+          <h4><img src="./assets/profile.png" alt="Profile Photo" class="img-rounded sm-col-3 md-col-4 lg-col-4"></img></h4>
+          <h4 class="card-body align-right">
+            <p class="card-text">I am Ted Belanoff, and I am an amateur developer originally from Northern California. 
+              I have a number of years of data analysis, SQL, and VBA experience and currently work in the financial services field.
+            </p>
+          </h4>
+          <h4><a href="https://www.linkedin.com/in/belanoff/">LinkedIn</a></h4>
+	  <h4><a href="https://github.com/TedBelanoff">GitHub</a></h4>
+          <h4><a href="./assets/Belanoff Resume.pdf">Resume</a></h4>
+        </div>
+      </div>
+    </div>
+    
+<!-- Footer-bordering strip -->
+  <div class="row" style="height:20px;background-color:#008080"></div>
+  </body>
+
+<!-- Official Footer-->
+<footer style ="color:white; background-color:#2F4F4F">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">Copyright
+  </div>

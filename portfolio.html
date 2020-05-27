@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Page characteristics and bootstrap CSS/JS lookup -->
+  <title>Portfolio Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+/* Navbar including vertical divider */
+    .navbar-brand {
+      background-color: #008080;
+      color:white;
+      font-weight:bold
+}
+    .divider-vertical {
+      height: 20px;
+      margin-top:14px;
+      width: 1px;
+      background-color:grey
+}
+    .navbar-right {
+      margin-right: 0px;
+}   
+
+/* Screen background */
+    .jumbotron h1 { 
+      color: #008080;
+      font-size: 2em;
+}
+    .jumbotron h3 {
+      height: 2px;
+      margin-left:auto;
+      margin-right:auto;
+      overflow: hidden;
+      background-color:darkgray;
+}
+
+/* Card container */
+.card {
+      background-color:white;
+      padding:30px;
+      min-width: 450px;
+      overflow: hidden;
+}
+
+/* Thumbnail and thumbnail label characteristics*/
+.thumbnail img {
+      height:390px;
+      width:auto;
+      background-color:#FFFFFF;
+      overflow: hidden;
+}
+.thumbnail h4 {
+      position: absolute; 
+      color:white;
+      top: 290px;
+      text-align:center;
+      line-height: 70px;
+      font:serif;
+      font-size:30px; 
+      height:17%;
+      width: 93%; 
+      background-color: #008080;}
+</style>
+</head>
+
+<body>
+<!-- Navbar -->
+  <div class="row">
+    <div class="container-fluid">
+        <div class="navbar-header navbar-light bg-dark">
+          <a class="navbar-brand" href="./index.html">Ted Belanoff</a>
+        </div>
+        <ul class="nav navbar-nav bg-light navbar-right">
+          <li><a href="./index.html">About</a></li>             
+          <li class="divider-vertical"></li>
+          <li><a href="./portfolio.html">Porfolio</a></li>
+          <li class="divider-vertical"></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+
+<!-- Background container-->
+<div class="jumbotron" style="margin-bottom:0px">
+    <div class="container">
+      <!-- Card container-->
+      <div class="card bg-light mb-3">
+        <h1 class="card-header">Portfolio</h1>
+        <h3></h3>
+        <!-- Thumbnails/Thumnail Labels-->
+        <hr class="md-up">
+          <div class="col sm-4 col-md-6">
+              <a href="https://tedbelanoff.github.io/Weather-Dashboard---HW6/" class="thumbnail">
+              <img src="./assets/weather.png" alt="Weather Dashboard"/>
+              <h4 vertical-align=middle >Weather Application</h4>
+              </a>
+              <h2>Weather Dashboard:</h2>
+              <h4><a href="https://tedbelanoff.github.io/Weather-Dashboard---HW6/">Project</a></h4>
+              <h4><a href="https://github.com/TedBelanoff/Weather-Dashboard---HW6">Repo</a></h4>
+          </div>
+            <div class="col sm-4 col-md-6">
+              <a href="https://tedbelanoff.github.io/HW-5--Day-Planner/" class="thumbnail">
+              <img src="./assets/scheduler.png" alt="Daily Scheduler"/>
+              <h4 vertical-align=middle>Daily Scheduler</h4>
+              </a>
+              <h2>Daily Scheduler:</h2>
+              <h4><a href="https://tedbelanoff.github.io/HW-5--Day-Planner/">Project</a></h4>
+              <h4><a href="https://github.com/TedBelanoff/HW-5--Day-Planner">Repo</a></h4>
+        </div>
+        <div class="col sm-4 col-md-6">
+          <a href="https://bombichino.github.io/project-01/" class="thumbnail">
+          <img src="./assets/stanbase.png" alt="StanBase"/>
+          <h4 vertical-align=middle>StanBase</h4>
+          </a>
+          <h2>StanBase:</h2>
+          <h4><a href="https://bombichino.github.io/project-01/">Project</a></h4>
+          <h4><a href="https://github.com/bombichino/project-01">Repo</a></h4>
+    </div>
+	<div class="col sm-4 col-md-6">
+              <a href="https://whispering-garden-63170.herokuapp.com/" class="thumbnail">
+              <img src="./assets/NoteTaker.png" alt="Note Taker"/>
+              <h4 vertical-align=middle>Note Taker</h4>
+              </a>
+              <h2>Note Taker</h2>
+              <h4><a href="https://whispering-garden-63170.herokuapp.com/">Project</a></h4>
+              <h4><a href="https://github.com/TedBelanoff/HW11--NoteTaker">Repo</a></h4>
+        </div>
+	<div class="col sm-4 col-md-6">
+              <a href=https://stormy-peak-37685.herokuapp.com/ class="thumbnail">
+              <img src="./assets/Eat-da-Burger (Node Express).png" alt="Eat-Da-Burger"/>
+              <h4 vertical-align=middle>Eat-Da-Burger</h4>
+              </a>
+              <h2>Eat-Da-Burger</h2>
+              <h4><a href="https://stormy-peak-37685.herokuapp.com/">Project</a></h4>
+              <h4><a href="https://github.com/TedBelanoff/HW13-Node-Express-Handlebars">Repo</a></h4>
+        </div>
+	<div class="col sm-4 col-md-6">
+              <a href=https://stormy-peak-37685.herokuapp.com/ class="thumbnail">
+              <img src="./assets/Quarantini-Gifting.PNG" alt="Quarantini-Gifting"/>
+              <h4 vertical-align=middle>Quarantini-Gifting</h4>
+              </a>
+              <h2>Quarantini-Gifting</h2>
+              <h4><a href="https://quarantini-gifting.herokuapp.com/">Project</a></h4>
+              <h4><a href="https://github.com/TedBelanoff/Quarantini-Gifting">Repo</a></h4>
+        </div>
+
+            
+        </div>
+      </div>
+    </div>
+
+<!-- Footer-bordering strip -->
+<div class="row" style="height:20px;background-color:#008080"></div>
+</body>
+
+<!-- Official Footer-->
+<footer style ="color:white; background-color:#2F4F4F">
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Copyright
+    </div>
+  
+</footer>
